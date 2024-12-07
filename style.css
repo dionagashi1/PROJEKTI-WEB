@@ -307,9 +307,42 @@ color: #f881c6;
 }
 
 .fb-cards img {
+  
   width: 100%;
   border-radius: 5px;
 }
 
+.frag-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.frag-cards {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 10px;
+  width: calc(22.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
 
 
+}
+
+.frag-cards img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+#fgimg {
+ width: 1000px;
+ height: 600px;
+ margin: 0px 300px 0px 300px;
+ }
