@@ -346,3 +346,79 @@ p {
  height: 600px;
  margin: 0px 300px 0px 300px;
  }
+
+ img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.kyliebaby {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.kbabycard {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 10px;
+  width: calc(22.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.kbabycard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.fromkylie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.fromkyliecard {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.fromkyliecard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+footer{
+  height: 100%;
+  background-color: #f0b6db;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 100px;
+  padding: 40px;
+ }
+ footer p {
+  color: #393939;
+  text-align: center;
+ }
+ .socialicons img{
+  width: 40px;
+height: 40px;
+margin: 0 10px;
+color: #f881c6;
+}
