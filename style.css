@@ -269,3 +269,24 @@ color: #f881c6;
   width: 100%;
   border-radius: 5px;
 }
+#heading12 {
+  text-align: center;
+  font-size: 1.5925rem;
+  font-weight: 800;
+  font-family: Tt-Chocolate;
+  color: #393939;
+  margin: 20px 0px 20px 350px;
+}
+
+#youtubevideo {
+  margin: 0px 300px 50px 300px;
+  align-items: center;
+}
+
+
+.fenty-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
