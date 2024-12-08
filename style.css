@@ -226,6 +226,7 @@ h1, h2,nav, .icons{
  }
  footer{
   height: 100%;
+  width: 100%;
   background-color: #f0b6db;
   text-align: center;
   font-size: 18px;
