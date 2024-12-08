@@ -428,3 +428,80 @@ color: #f881c6;
   width:100%;
   height: 600px;
 }
+
+
+
+.rhode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.rhodecard {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.rhodecard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.haileylips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.hlbiebercard {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(36.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.hlbiebercard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.rhproducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.rhpcards {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(36.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.rhpcards img {
+  width: 100%;
+  border-radius: 15px;
+}
