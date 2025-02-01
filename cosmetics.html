@@ -1,183 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cosmetics</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0" >
+    <title>Trio Cosmetics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/10f9a9460e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="external.css">
     <script src="script.js"></script>
+    <style>
+        
+         
+      footer {
+        background-color: #ede8ed;
+        color: #828080;
+        padding: 20px 40px;
+        margin-right: 0px;
+        font-family: Arial, sans-serif;
+        margin-left: 0px;
+        width: 100%;
+      }
+
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .footer-section {
+       
+        flex: 1;
+        margin: 0 10px;
+        min-width: 150px;
+      }
+
+      .footer-section p,
+      .footer-section a {
+        margin: 5px 0;
+        color: #828080;
+        text-decoration: none;
+      }
+
+      .footer-section a:hover {
+        text-decoration: none;
+      }
+
+      .social-media a img {
+        width: 30px;
+        margin: 0 5px;
+        filter: brightness(0.8) invert(0);
+        
+      }
+
+      .social-media a img:hover {
+        filter: brightness(0.8) invert(1.8);
+      }
+
+      footer p {
+        font-size: 24px;
+        line-height: 1.5;
+      }
+
+      footer strong {
+        font-size: 26px;
+      }
+
+     
+    </style>
 </head>
 <body>
-    <header>
-        <h1>TRIO COSMETICS</h1>
-        <h2>TRIO COSMETICS</h2>
-        <div class="icons">
-          <img src="images/favorite.png" alt="favorite">
-          <img src="images/person.png" alt="account">
-          <img src="images/search.png" alt="search">
-          <img src="images/shopping.png" alt="cart">
-          </div>
-          <nav>
-            <ul>
-    
-            <li><a href="cosmetics.html" id="pages" target="_blank">cosmetics</a></li>
-            <li><a href="fragrance.html" id="pages" target="_blank">fragrance</a></li>
-            <li><a href="skin.html" id="pages" target="_blank" >skin</a></li>
-            <li><a href="baby.html" id="pages" target="_blank">baby</a></li>
-            <li><a href="contactus.html" id="pages" target="_blank">contact us</a></li>
-            <li><a href="register.html" id="pages" target="_blank">register</a></li>
-             
-            </ul>
-          </nav>
-       </header>
-       <img id="kyliecosmetics" src="cosmeticskyimages/kjcosmetics (1).webp" alt="kyliecosmetics"><br><br>
-
+  <p style="background-color: rgb(254, 209, 224) ; text-align: center; margin-bottom: 0%;" >enjoy our great international shipping rates</p>
       
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="container-fluid  justify-content-around">
+      <a class="navbar-brand" href="home.html" target="_blank">Trio Cosmetics</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active"  href="cosmetics.html" target="_blank">cosmetics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="fragrance.html" target="_blank">fragrance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skin.html" target="_blank">skin</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="baby.html">baby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost/fazadyte/login-register/login_form.php">log in</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="http://localhost/fazadyte/login-register/register_form.php">register</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shoppingcart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+         </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  
 
-       <h1>KYLIE PRODUCTS</h1>
+       <h1 style="text-align: center;"><strong>KYLIE COSMETICS PRODUCTS</strong></h1>
        <br><br><br>
       
-       <section class="ky-products">
-       <div class="ky-cards">
-        <img src="cosmeticskyimages/glossdrip.webp" alt="glossdrip">
-         <p>gloss drip 11&euro;</p>
-       </div>
+      
+  <div class="row row-cols-1 row-cols-md-2 g-4">
 
-       <div class="ky-cards">
-        <img src="cosmeticskyimages/kybrowgel.webp" alt="kybrowgel">
-        <p>ky brow gel  13&euro;</p>
-       </div>
-       <div class="ky-cards">
-        <img src="cosmeticskyimages/lipcheekblushtint.webp" alt="lipcheekblushtint">
-         <p>ky lip and cheek blush tint 23&euro;</p>
-       </div>
+        
+    <div class="pricing-card">
+     <img src="cosmeticskyimages/kybrowgel.webp" alt="Product" class="product-image">
+     <h2 class="product-title">kylie brow gel </h2>
+     <p></p>
+     <p class="product-price">13.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
 
-       <div class="ky-cards">
-        <img src="cosmeticskyimages/kylash.webp" alt="combo">
-        <p>lash volume mascara 35&euro;</p>
-       </div>
 
-       <div class="ky-cards">
-        <img src="cosmeticskyimages/kylashmascarapaletteduo.webp" alt="duo">
-        <p>lash volume mascara palette duo 52&euro;</p>
-       </div>
-       <div class="ky-cards">
-        <img src="cosmeticskyimages/lipoil.webp" alt="lipoil">
-        <p>lip oil 21&euro;</p>
-     </div>
+   <div class="pricing-card">
+     <img src="cosmeticskyimages/kylashmascarapaletteduo.webp" alt="Product" class="product-image">
+     <h2 class="product-title">kylie lash mascara palette</h2>
+     <p></p>
+     <p class="product-price">25.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/products/KS_Bag_Ecomm-Pink_02_800x.jpg?v=1676677589" alt="Product" class="product-image">
+     <h2 class="product-title">kylie travel bag</h2>
+     <p></p>
+     <p class="product-price">21.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/products/KS_Sugar-Lip-Scrub_Ecomm-Pink_03_800x.jpg?v=1676680760" alt="Product" class="product-image">
+     <h2 class="product-title">sugar lip scrub</h2>
+     <p></p>
+     <p class="product-price">20.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/files/KJS_VanillaBC_24_Scrub_Closed_V2_800x.jpg?v=1698974208" alt="Product" class="product-image">
+     <h2 class="product-title">vanilla body scrub</h2>
+     <p>exfoliate + renew</p>
+     <p class="product-price">26.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/products/KS_SerumBundle_Ecomm-Pink_WS_01_800x.jpg?v=1676680738" alt="Product" class="product-image">
+     <h2 class="product-title">serum bundle</h2>
+     <p>hydrate + brighten</p>
+     <p class="product-price">51.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/files/KJS_LOILW_23_6ml_800x.jpg?v=1724363744" alt="Product" class="product-image">
+     <h2 class="product-title">watermelon lip oil</h2>
+     <p>smooth + shine</p>
+     <p class="product-price">24.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/products/KS_Coconut-Body-Scrub_Ecomm-Pink_01copy_aa8a1ee5-bd70-42cd-944c-4147c95eac64_800x.jpg?v=1676678921" alt="Product" class="product-image">
+     <h2 class="product-title">coconut body scrub</h2>
+     <p>exfoliate + renew</p>
+     <p class="product-price">26.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/files/KJS_LOIL_24_PP_ChocolateCookie_Stylized_800x.jpg?v=1724366768" alt="Product" class="product-image">
+     <h2 class="product-title">chocolate lip oil</h2>
+     <p>smooth + shine</p>
+     <p class="product-price">24.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/files/LB_GB_SHBA_bundle_800x.jpg?v=1718127893" alt="Product" class="product-image">
+     <h2 class="product-title">lip and cheek duo </h2>
+     <p>natural + flushed look</p>
+     <p class="product-price">35.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/products/KJS_LAV_BATH_22_Candle_Closed_9oz_Lavender_Background_93daf1d3-83be-485b-9f3f-1ff8d6c52a33_800x.jpg?v=1676677465" alt="Product" class="product-image">
+     <h2 class="product-title">lavender candle</h2>
+     <p>fresh + relaxing</p>
+     <p class="product-price">31.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   <div class="pricing-card">
+     <img src="https://kyliecosmetics.com/cdn/shop/files/KJC_HOLIDAY_24_LipOilSet_Stylized_v2_0fa2397b-9da8-495e-a393-9d676af969f7_800x.jpg?v=1727108854" alt="Product" class="product-image">
+     <h2 class="product-title">lip oil gift set</h2>
+     <p>smooth + shine</p>
+     <p class="product-price">36.95&euro;</p>
+     <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+   </div>
+   
+   </div>
+   <br><br><br>
 
-     <div class="ky-cards">
-      <img src="cosmeticskyimages/lipoil2.webp" alt="lipoil2">
-      <p>lip oil 23&euro;</p>
-     </div>
+   <h1 style="text-align: center;"><strong>FENTY BEAUTY PRODUCTS</strong></h1>
+       <br><br><br>
 
-     <div class="ky-cards">
-       <img src="cosmeticskyimages/makeupbundle.webp" alt="makeupbundle">
-       <p>makeup bundle combo 112&euro;</p>
-     </div>
-    <br><br><br>
-    <h1 id="heading12">FENTY BEAUTY PRODUCTS</h1>
-    <br><br><br>
-    
-    <iframe id="youtubevideo" width="1014" height="414"  
-    src="https://www.youtube.com/embed/AH8PhGJAKoY?controls=0&autoplay=1&loop=1">
-    </iframe> 
+       <div class="row row-cols-1 row-cols-md-2 g-4">
 
-   <section class="fenty-products">
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/shinylipstick.webp" alt="shinylipstick">
-      <p>fenty shiny lipstick 46&euro;</p>
-    </div>
+       <div class="pricing-card">
+        <img src="cosmeticskyimages/fentyhighlight.jpg" alt="Product" class="product-image">
+        <h2 class="product-title">Fenty highlight</h2>
+        <p></p>
+        <p class="product-price">56.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/flipstick.jpg" alt="Product" class="product-image">
+        <h2 class="product-title">fenty lipstick</h2>
+        <p></p>
+        <p class="product-price">31.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/eyeshpalette.jpg" alt="Product" class="product-image">
+        <h2 class="product-title">fenty eye pakette</h2>
+        <p></p>
+        <p class="product-price">45.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/eyebrightener.jpg" alt="Product" class="product-image">
+        <h2 class="product-title">fenty eye brightener</h2>
+        <p></p>
+        <p class="product-price">26.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/hydratingbodymilk.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty hydrating bodymilk</h2>
+        <p></p>
+        <p class="product-price">31.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/bskintint.jpg" alt="Product" class="product-image">
+        <h2 class="product-title">fenty skin tint</h2>
+        <p></p>
+        <p class="product-price">24.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/hydratinglwconc.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty hydrating concealer</h2>
+        <p></p>
+        <p class="product-price">36.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/lip&cheekglowbalm.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty  lip and cheek </h2>
+        <p></p>
+        <p class="product-price">44.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/makeupbundle.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty makeup bundle</h2>
+        <p></p>
+        <p class="product-price">85.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/moisturizer.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty moisturizer</h2>
+        <p></p>
+        <p class="product-price">31.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/oilbodycream.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty oil body cream</h2>
+        <p></p>
+        <p class="product-price">36.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      
+      <div class="pricing-card">
+        <img src="cosmeticskyimages/glossdrip.webp" alt="Product" class="product-image">
+        <h2 class="product-title">fenty gloss drip</h2>
+        <p></p>
+        <p class="product-price">28.95&euro;</p>
+        <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
 
-    
+      </div>
+      <br><br><br>
 
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/fentyhighlight.jpg" alt="fentyhighlight">
-       <p>fenty highlight 56&euro;</p>
-    </div>
 
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/flipstick.jpg" alt="fentylipstick">
-       <p> fenty lip stick 31&euro;</p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/eyebrightener.jpg" alt="eyebrightener">
-       <p>fenty eye brightener 45&euro; </p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/contourconcealer.webp" alt="contourconcealer">
-       <p> fenty contour and concealer brush 23&euro;</p>
-
-    </div>
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/eyeshpalette.jpg" alt="eyeshadowpalette">
-       <p> fenty eye shadow palette 58&euro; </p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/bskintint.jpg" alt="skintint">
-       <p> fenty beauty skin tint 69&euro; </p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/longwwliquidlipst.webp" alt="longwwliquidlipst">
-       <p> fenty longwear liquid lip stick 72&euro;</p>
-    </div>
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/hydratingbodymilk.webp" alt="hydratingbodymilk">
-       <p>fenty hydrating body milk 65&euro; </p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/moisturizer.webp" alt="makeupesst">
-       <p> fenty moisturizer 39&euro; </p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/serumtoner.webp" alt="hydratinglwconc">
-       <p> serum toner 41&euro;</p>
-    </div>
-
-    <div class="fb-cards">
-      <img src="cosmeticskyimages/lipcaressentials.webp" alt="lipcaressentials">
-       <p> fenty lip care essentials 62&euro; </p>
-    </div>
-  </section>
   
- <br><br><br>
+ 
 
- <div class="fbtext">
-  <h1>ABOUT FENTY BEAUTY</h1>
-  <pre>
-Discover makeup for all at Fenty Beauty, where inclusivity isn't just a word—it's the heartbeat of every product.
-Here, beauty lovers can shop makeup that's designed to celebrate and elevate every skin tone.
-Come explore our bestsellers, from the groundbreaking Pro Filt’r Foundation, known for its extensive shade range, to the universally loved Gloss Bomb Lip Luminizers
-that flatter every pout.
-Each piece in our collection is not just a makeup product; it’s a statement of self-expression.
-But there's more than just incredible makeup here. We understand that finding your perfect foundation shade online can seem daunting.
-That’s why we offer virtual services—a digital wonderland where you can easily find your foundation shade match, get tailored recommendations, and virtually try on products
-to ensure you love them.
-Completing your beauty routine doesn’t end there.We know that a flawless application begins with skin that’s been treated right.
-Enter Fenty Skin—your bestie in skincare that prepares and perfects your canvas for makeup application.
-Experience the ultimate skincare and makeup link-up; after indulging in your Fenty Skin essentials, layering on your Fenty Beauty favorites feels like a dream.
-So go ahead, let the best version of yourself shine with our products.
-  </pre>
-</div> 
+ 
 <br><br><br>
       
-      <footer>
-        <label for="email" id="email"></label><br>
-        <input type="text" id="email" name="email" placeholder="Email">
-        <button type="submit" onclick="alert(submited)">submit</button><br><br>
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <p><a href="index.html"><strong>TRIO COSMETICS</strong></a></p><br>
+      <br><br><br><br><br><br>
+      <p>© 2024 TRIO COSMETICS</p>
+    </div>
+    <div class="footer-section">
+      <p><a href="shoppingcart.html"><strong>SHOPPING CART</strong></a></p><br>
+      <p><a href="contactus.html"><strong>CONTACT US</strong></a></p><br>
+      <p><a href="register.html"><strong>REGISTER</strong></a></p><br>
+    </div>
 
-        <p>&copy; 2024 Trio Cosmetics.All Rights Reserved.</p>
-        <div class="socialicons">
-        <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="Facebook"></a>
-        <a href="https://www.twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" alt="Twitter"></a>
-        <a href="https://www.instagram.com"target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram"></a>
-        </div>
-      </footer>
+    <div class="footer-section">
+     <p><strong>SUPPORT</strong></p>
+     <p>We’re here M-F 9am - 5pm PST.</p><br>
+     <p>Drop us a note anytime:<a href="https://mail.google.com" target="_blank"><br>hello@skincare.com</a></p>
+
+    </div>
+
+    <div class="footer-section social-media">
+      <p><strong>SOCIAL</strong></p>
+     <p> <a href="https://www.facebook.com/" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="facebook">facebook</a></p>
+     <p> <a href="https://www.instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram">instagram</a></p>
+     
+    </div>
+  
+  </div>
+</footer>
 </body>
 </html>
