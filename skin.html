@@ -3,37 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>skin</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Trio Cosmetics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npmbootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/10f9a9460e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="external.css">
     <script src="script.js"></script>
+    <style>
+
+#haileyimg {
+  width:100%;
+  height: 600px;
+}
+
+
+
+.rhode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.rhodecard {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.rhodecard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.haileylips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.hlbiebercard {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(36.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.hlbiebercard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.rhproducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.rhpcards {
+  background-color: #f3f1f2;
+  text-align: center;
+  border-radius: 30px;
+  width: calc(36.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: #e38dc3;
+  box-sizing: border-box;
+
+
+}
+
+.rhpcards img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+      footer {
+        background-color: #ede8ed;
+        color: #828080;
+        padding: 20px 40px;
+        margin-right: 0px;
+        font-family: Arial, sans-serif;
+      }
+
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .footer-section {
+       
+        flex: 1;
+        margin: 0 10px;
+        min-width: 150px;
+      }
+
+      .footer-section p,
+      .footer-section a {
+        margin: 5px 0;
+        color: #828080;
+        text-decoration: none;
+      }
+
+      .footer-section a:hover {
+        text-decoration: none;
+      }
+
+      .social-media a img {
+        width: 30px;
+        margin: 0 5px;
+        filter: brightness(0.8) invert(0);
+        
+      }
+
+      .social-media a img:hover {
+        filter: brightness(0.8) invert(1.8);
+      }
+
+      footer p {
+        font-size: 24px;
+        line-height: 1.5;
+      }
+
+      footer strong {
+        font-size: 26px;
+      }
+     
+    </style>
 </head>
 <body>
-   <header>
-    <h1>TRIO COSMETICS</h1>
-    <h2>TRIO COSMETICS</h2>
-    <div class="icons">
-        <img src="images/favorite.png" alt="favorite">
-        <img src="images/person.png" alt="account">
-        <img src="images/search.png" alt="search">
-        <img src="images/shopping.png" alt="cart">
-      </div>
-      <nav>
-        <ul>
+   
+  <p style="background-color: rgb(254, 209, 224) ; text-align: center; margin-bottom: 0%;" >enjoy our great international shipping rates</p>
 
-        <li><a href="cosmetics.html" id="pages" target="_blank">cosmetics</a></li>
-        <li><a href="fragrance.html" id="pages" target="_blank">fragrance</a></li>
-        <li><a href="skin.html" id="pages" target="_blank" >skin</a></li>
-        <li><a href="baby.html" id="pages" target="_blank">baby</a></li>
-        <li><a href="contactus.html" id="pages" target="_blank">contact us</a></li>
-        <li><a href="register.html" id="pages" target="_blank">register</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="container-fluid  justify-content-around">
+      <a class="navbar-brand" href="home.html" target="_blank">Trio Cosmetics</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"  href="cosmetics.html" target="_blank">cosmetics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="fragrance.html" target="_blank">fragrance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="skin.html" target="_blank">skin</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="baby.html">baby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost/fazadyte/login-register/login_form.php">log in</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="http://localhost/fazadyte/login-register/register_form.php">register</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shoppingcart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+         </li>
          
         </ul>
-      </nav>
-   </header>
+      </div>
+    </div>
+  </nav>
+
+
+
+
    <img id="haileyimg" src="skinimages/Cover-Image.webp" alt="rhode">
    <br><br><br>
-     <h1>RHODE by HAILEY BEIBER</h1>
-     <br><br><br>
+
+   <h1 style="text-align: center;"><strong>RHODE by HAILEY BIEBER</strong></h1>
+   <br><br><br>
 
    <section class="rhode">
     <div class="rhodecard">
@@ -74,52 +234,111 @@
    </section>
    <br><br><br>
 
-   <h1>RHODE PRODUCTS</h1>
+ 
+
+   <h1 style="text-align: center;"><strong>SHOP RHODE PRODUCTS</strong></h1>
    <br><br><br>
+  
+  
+<div class="row row-cols-1 row-cols-md-2 g-4">
 
-   <section class="rhproducts">
-     <div class="rhpcards">
-      <img src="skinimages/thetravelset.webp" alt="thetravelset">
-      <p>the travel set 81&euro;</p>
-     </div>
+    
+<div class="pricing-card">
+ <img src="skinimages/glazing-milk.webp" alt="Product" class="product-image">
+ <h2 class="product-title">glazing milk</h2>
+ <p></p>
+ <p class="product-price">51.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
 
-     <div class="rhpcards">
-        <img src="skinimages/glazing-milk.webp" alt="glazingmilk">
-        <p>glazing mil 51&euro;</p>
-     </div>
 
-     <div class="rhpcards">
-      <img src="skinimages/therhodekit.webp" alt="therhodekit">
-      <p>the rhode kit 67&euro;</p>
-     </div>
+<div class="pricing-card">
+ <img src="skinimages/peptideliptratment.webp" alt="Product" class="product-image">
+ <h2 class="product-title">peptide lip treatment</h2>
+ <p></p>
+ <p class="product-price">25.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
 
-     <div class="rhpcards">
-       <img src="skinimages/peptideliptratment.webp" alt="peptideliptratment">
-       <p>peptide lip treatment 30&euro;</p>
-     </div>
+<div class="pricing-card">
+ <img src="skinimages/pineapple-refresh.webp" alt="Product" class="product-image">
+ <h2 class="product-title">pineapple refresh</h2>
+ <p></p>
+ <p class="product-price">21.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
 
-     <div class="rhpcards">
-     <img src="skinimages/pineapple-refresh.webp" alt="pineapple-refresh">
-     <p>pineapple refresh 47&euro;</p>
-     </div>
+<div class="pricing-card">
+ <img src="skinimages/thebarrierset.webp" alt="Product" class="product-image">
+ <h2 class="product-title">barrier set</h2>
+ <p></p>
+ <p class="product-price">52.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
 
-     <div class="rhpcards">
-     <img src="skinimages/thebarrierset.webp" alt="">
-     <p>the barrier set 123&euro;</p>
-     </div>
-   </section>
-   <br><br><br>
+<div class="pricing-card">
+ <img src="skinimages/therhodekit.webp" alt="Product" class="product-image">
+ <h2 class="product-title">rhode kit</h2>
+ <p></p>
+ <p class="product-price">126.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
+
+<div class="pricing-card">
+ <img src="skinimages/thetravelset.webp" alt="Product" class="product-image">
+ <h2 class="product-title">travel set</h2>
+ <p></p>
+ <p class="product-price">151.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
+
+<div class="pricing-card">
+ <img src="skinimages/blushset.webp" alt="Product" class="product-image">
+ <h2 class="product-title">blush set</h2>
+ <p></p>
+ <p class="product-price">114.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
+
+<div class="pricing-card">
+ <img src="skinimages/liptints.webp" alt="Product" class="product-image">
+ <h2 class="product-title">lip tints</h2>
+ <p></p>
+ <p class="product-price">86.95&euro;</p>
+ <button class="add-to-cart-btn" onclick="document.location='cart.html'">Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+</div>
+
+
+</div>
+<br><br><br>
 
    <footer>
-    <label for="email" id="email"></label><br>
-    <input type="text" id="email" name="email" placeholder="Email">
-    <button type="submit" onclick="alert(submited)">submit</button><br><br>
+    <div class="footer-container">
+      <div class="footer-section">
+        <p><a href="index.html"><strong>TRIO COSMETICS</strong></a></p><br>
+        <br><br><br><br><br><br>
+        <p>© 2024 TRIO COSMETICS</p>
+      </div>
+      <div class="footer-section">
+        <p><a href="shoppingcart.html"><strong>SHOPPING CART</strong></a></p><br>
+        <p><a href="contactus.html"><strong>CONTACT US</strong></a></p><br>
+        <p><a href="register.html"><strong>REGISTER</strong></a></p><br>
+      </div>
 
-    <p>&copy; 2024 Trio Cosmetics.All Rights Reserved.</p>
-    <div class="socialicons">
-    <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="Facebook"></a>
-    <a href="https://www.twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" alt="Twitter"></a>
-    <a href="https://www.instagram.com"target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram"></a>
+      <div class="footer-section">
+       <p><strong>SUPPORT</strong></p>
+       <p>We’re here M-F 9am - 5pm PST.</p><br>
+       <p>Drop us a note anytime:<a href="https://mail.google.com" target="_blank"><br>hello@skincare.com</a></p>
+
+      </div>
+
+      <div class="footer-section social-media">
+        <p><strong>SOCIAL</strong></p>
+       <p> <a href="https://www.facebook.com/" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="facebook">facebook</a></p>
+       <p> <a href="https://www.instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram">instagram</a></p>
+       
+      </div>
+    
     </div>
   </footer>
 </body>
